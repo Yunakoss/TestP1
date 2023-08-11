@@ -81,6 +81,7 @@ public class CalculatorTest {
         double actualResult = Calculator.calculate(a, b, Calculator.Type.SUMMARY);
 
         assertEquals(expectedResult, actualResult);
+        //added comment
     }
 
     @Test
